@@ -182,7 +182,7 @@ export class GuiModel {
                             "type": "autocomplete",
                             "name": "Location",
                             "data": [ "Winterthur", "Zürich" ],
-                            "form": "GroupForm",
+                            "form": "LocationForm",
                             "width": 2
                         },
                         {
@@ -321,14 +321,14 @@ export class GuiModel {
 						{
                             "type": "newButton",
                             "name": "AddActivity",
-                            "icon": "fa-user",
+                            "icon": "fa-calendar",
                             "color": "green",
                             "form": {
 							"form": "ActivityForm"}
 						},
 						{
                             "type": "list",
-                            "icon": "fa-weixin",
+                            "icon": "fa-calendar",
                             "color": "orange",
 							"search": true,
 							"data": [{name: "Movie Why Him"}, {name: "Eating Pizza"}, {name: "Running Eschenberg"}],
